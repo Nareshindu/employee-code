@@ -58,7 +58,7 @@
 
 <form action="${pageContext.request.contextPath}/save" method="post">
     <label for="employeeID">Employee ID</label>
-    <input type="text" id="employeeID" readonly  name="employeeId" required 
+    <input type="text" id="employeeID"  name="employeeId" required 
            value="${employee.employeeId != null ? employee.employeeId : ''}">
 
     <label for="firstName">First Name</label>
